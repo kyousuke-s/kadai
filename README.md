@@ -1,6 +1,6 @@
 ## 使用言語
 
-HTML,CSS,JavaSclipt
+HTML,CSS,JavaScript
 
 ## 内容
 
