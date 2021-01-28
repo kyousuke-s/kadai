@@ -1,0 +1,92 @@
+#container{
+	width:800px;
+	height:650px;
+	margin:0 auto;
+	padding-top:10px;
+	background-image:url(../images/tbg.png);
+}
+#mTitle{
+	width:95%;
+	height:90px;
+	margin:10px auto;
+	font-size:50px;
+	line-height:100px;
+	text-align:center;
+	background:#cd8058;
+	border:2px solid #a80000;
+	border-radius:10px;
+	color:#ffe6be;
+}
+#explan{
+	width:95%;
+	height:80px;
+	margin:10px auto;
+	font-size:15px;
+	line-height:26px;
+	text-align:center;
+	border-radius:10px;
+	background:#fff;
+}
+#main{
+	width:100%;
+	height:450px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#tarotTable{
+	width:100%;
+	height:400px;
+	padding:10px 0;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	background:#fff;
+	box-sizing: border-box;
+	border:2px solid #800000;
+}
+#shuf{
+	display:block;
+	width:150px;
+	height:50px;
+	font-size:15px;
+	border-radius:5px;
+	margin:5px auto;
+}
+
+.tarot{
+	width:80px;
+	height:120px;
+	margin:0px;
+	background-size:cover;
+	background-position:center;
+	border:1px solid #000;
+	border-radius:5%;
+	padding:0;
+	position:absolute;
+}
+.tarot1{
+	width:200px;
+	height:280px;
+	background-size:cover;
+	background-position:center;
+	margin:0;
+}
+.back{
+	background-image: url(../images/tb.png)!important;
+}
+#result{
+	width:100%;
+	height:80px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background:#444;
+
+}
+#msg{
+	color:white;
+	width:90%;
+	text-align:center;
+	opacity:0;
+}
