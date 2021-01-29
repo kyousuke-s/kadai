@@ -23,7 +23,6 @@ window.onload=function(){
 	}
 
 	//シャッフル
-	
 	let i=tarots.length
 	function shuffle(){
 		console.log('test');
@@ -38,7 +37,6 @@ window.onload=function(){
 	shuffle();
 
 	//ボタン
-	
 	const btn=document.getElementById('shuf');
 	btn.addEventListener('click',shuffle);
 	btn.addEventListener('click',function(){
@@ -77,6 +75,7 @@ window.onload=function(){
 		});
 	}
 
+	//カードと文字の動き
 	$(function(){
 		$('.tarot1').on('mouseover',function(){
 			$(this).stop(true).animate({width:'210px',height:'290px'},200);
